@@ -11,11 +11,11 @@ disableKinds = ["taxonomy", "term"]
 [author]
   name = "YuNing Chen"
   headline = "Student, Developer, Learner"
-  image = "img/avatar.jpg"  # path relative to static directory
+  # image = "img/avatar.jpg"  # path relative to static directory
 
   links = [
     { email = "mailto:i@ynchen.me" },
-    { link = "https://blog.ynchen.me" },
+    { link = { href = "https://blog.ynchen.me", text = "Blog" } },
     # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
     # { apple = "https://www.apple.com" },
     # { codepen = "https://codepen.io/username" },
