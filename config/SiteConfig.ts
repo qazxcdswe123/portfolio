@@ -14,7 +14,7 @@ export const siteConfig = {
     },
   ],
   socials: [
-    { name: "Email", href: "mailto:i@ynchen.me" },
+    { name: "Email", href: "mailto:admin@ynchen.me" },
     { name: "Blog", href: "https://blog.ynchen.me" },
     { name: "GitHub", href: "https://github.com/qazxcdswe123" },
     { name: "Twitter", href: "https://twitter.com/taocsapp" },
