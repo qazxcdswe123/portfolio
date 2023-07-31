@@ -11,7 +11,7 @@ interface LinkProps {
 
 function LinkItems({ items }: LinkProps) {
   return (
-    <div className="container">
+    <div className="container flex flex-col items-center">
       {items?.length ? (
         items?.map(
           (item, index) => {
