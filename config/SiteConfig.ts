@@ -6,11 +6,11 @@ export const siteConfig = {
   githubProjects: [
     {
       projectURI: "qazxcdswe123/telegramMemoBot",
-      description: "A telegram bot for the memo project",
+      description: "A simple but yet effective telegram bot for the memos project",
     },
     {
       projectURI: "qazxcdswe123/search-obsidian-in-google",
-      description: "A Chrome and Obsidian extension for searching obsidian vault content in google",
+      description: "A Chrome and Obsidian extension for searching Obsidian vault in Google",
     },
   ],
   socials: [
