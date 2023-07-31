@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Portfolio",
   description: "Student at South Normal University",
-  navBarStartItems: [{ title: "Home", href: "/" },{title: "Résumé", href: "https://typst.app/project/ry83ilvFpeDsDsCL8yC2QL"}],
+  navBarStartItems: [{title: "Résumé", href: "https://typst.app/project/ry83ilvFpeDsDsCL8yC2QL"}],
   githubUserNames: "qazxcdswe123",
   githubProjects: [
     {

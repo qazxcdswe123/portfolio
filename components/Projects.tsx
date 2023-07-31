@@ -15,7 +15,7 @@ async function ProjectCard(props: ProjectCardProps) {
   const stars = await getGitHubStars(props.projectURI);
   const link = "https://github.com/" + props.projectURI;
   return (
-    <Card key={props.idx}>
+    <Card key={props.idx} className="overflow-auto">
       <CardHeader>
         <CardTitle>
           <div className="flex justify-between">
