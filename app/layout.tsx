@@ -41,7 +41,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
         <div className="container">
           <NavBar />
-          <section id="hero" className="space-y-6 pb-8 pt-6 md:pb-12 md:pt-10 lg:py-32">
+          <section id="hero" className="h-screen space-y-6 pb-8 pt-6 md:pb-12 md:pt-10 lg:py-32">
             <Hero />
           </section>
           <section id="projects" className="container space-y-6 bg-slate-50 py-8 dark:bg-transparent md:py-12 lg:py-24">
