@@ -4,11 +4,17 @@ import Link from "next/link";
 import { Icons } from "@/components/Icons";
 import { cn } from "@/lib/utils";
 import { NavItem } from "@/types/nav";
+import { buttonVariants } from "@/components/ui/button";
 
 function NavBarEnd() {
   return (
-    <ThemeToggle />
-  );
+    <div className="flex justify-end">
+      <Link className={buttonVariants({ variant: "ghost", size: "icon" })}
+            href="https://github.com/qazxcdswe123/portfolio"><Icons.GitHub /></Link>
+      <ThemeToggle />
+    </div>
+  )
+    ;
 }
 
 interface NavBarProps {
@@ -47,8 +53,8 @@ function NavBarStart({ items }: NavBarProps) {
 
 export function NavBar() {
   return (
-    <header className='sticky top-0 z-40 w-full border-b bg-background'>
-      <div className='container flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0'>
+    <header className="sticky top-0 z-40 w-full border-b bg-background">
+      <div className="container flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0">
         <NavBarStart items={siteConfig.navBarStartItems} />
         <NavBarEnd />
       </div>
