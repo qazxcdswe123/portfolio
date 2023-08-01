@@ -18,7 +18,7 @@ async function ProjectCard(props: ProjectCardProps) {
     <Card key={props.idx} className="overflow-auto">
       <CardHeader>
         <CardTitle>
-          <div className="flex justify-between">
+          <div className="flex justify-between gap-4">
             <Link href={"https://github.com/" + props.projectURI}
                   target="_blank" rel="noreferrer">
               <Icons.GitHub className="" />
